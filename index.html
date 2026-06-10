@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Oposición — Servicios Sociales CV</title>
+<style>
+  :root{--bg:#0f1117;--surface:#1a1d27;--surface2:#222639;--border:#2e3350;--accent:#4f7cff;--accent2:#7c5cfc;--text:#e8eaf6;--muted:#8b90b0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:system-ui,sans-serif;min-height:100vh;padding:32px 16px}
+  .container{max-width:700px;margin:0 auto}
+  header{text-align:center;margin-bottom:40px}
+  header h1{font-size:26px;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+  header p{color:var(--muted);font-size:15px}
+  .section-title{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin:32px 0 12px;padding-left:4px}
+  .law-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:20px 24px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none;transition:border-color .2s,background .2s;cursor:pointer}
+  .law-card:hover{border-color:var(--accent);background:rgba(79,124,255,.06)}
+  .law-info{flex:1}
+  .law-num{font-size:11px;color:var(--accent);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px}
+  .law-name{font-size:16px;font-weight:600;color:var(--text);margin-bottom:4px}
+  .law-meta{font-size:12px;color:var(--muted)}
+  .law-arrow{font-size:20px;color:var(--muted);flex-shrink:0}
+  .law-card:hover .law-arrow{color:var(--accent)}
+  footer{text-align:center;margin-top:48px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>📋 Test Oposición</h1>
+    <p>Asesora Jurídica de Servicios Sociales · Comunitat Valenciana</p>
+  </header>
+
+  <div class="section-title">Leyes y decretos</div>
+
+  <a class="law-card" href="Test_Ley3-2019.html">
+    <div class="law-info">
+      <div class="law-num">01 · Ley 3/2019</div>
+      <div class="law-name">Servicios Sociales Inclusivos de la CV</div>
+      <div class="law-meta">824 preguntas · 10 títulos · Arts. 1–149 + disposiciones</div>
+    </div>
+    <div class="law-arrow">→</div>
+  </a>
+
+  <a class="law-card" href="Test_Decreto38-2020.html">
+    <div class="law-info">
+      <div class="law-num">02 · Decreto 38/2020</div>
+      <div class="law-name">Desarrollo reglamentario Ley 3/2019</div>
+      <div class="law-meta">260 preguntas · 5 títulos · Arts. 1–41 + disposiciones</div>
+    </div>
+    <div class="law-arrow">→</div>
+  </a>
+
+  <footer>Uso personal · Es nuestra 2026–2027 💪</footer>
+</div>
+</body>
+</html>
